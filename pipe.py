@@ -131,7 +131,6 @@ class Pipe():
             lambda x: get_last_valid_status(x),
             axis=1)
 
-        # self.subscriptions_df['invalid_stat']
 
     def calculate_months_since_first_subscription(self):
         """
